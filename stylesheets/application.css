@@ -1298,7 +1298,6 @@ input:-moz-placeholder {
     line-height:22px;
 }
 #header li.drop-down li > a {
-  padding:5px 9px;
   background:#FFFFFF;
   position:static;
   color:#222222;
@@ -2599,4 +2598,24 @@ Additional wiki styles
 }
 #content table.issues tr.odd.priority-5 td {
     background-color:#ca3f3f;
+}
+
+
+/* time-tracker overrides */
+#time-tracker-menu .icon {
+    padding-right:0;
+}
+#time-tracker-menu a.icon-action {
+    height:0 !important;
+    padding:16px 16px 0 0;
+    overflow:hidden;
+}
+#time-tracker-menu a.icon-pause-action {
+    background-image:url(../images/pause.png);
+}
+#time-tracker-menu a.icon-stop-action {
+    background-image:url(../images/stop.png);
+}
+#time-tracker-menu a.icon-list-action {
+    background-image:url(../images/list.png);
 }
