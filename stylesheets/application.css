@@ -2602,6 +2602,9 @@ Additional wiki styles
 
 
 /* time-tracker overrides */
+#time-tracker-menu {
+    color:#000;
+}
 #time-tracker-menu .icon {
     padding-right:0;
 }
