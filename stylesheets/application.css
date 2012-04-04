@@ -2615,6 +2615,7 @@ Additional wiki styles
     height:0 !important;
     padding:16px 16px 0 0;
     overflow:hidden;
+    background-position:0 3px;
 }
 #time-tracker-menu a.icon-pause-action {
     background-image:url(../images/pause.png);
