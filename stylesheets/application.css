@@ -1244,7 +1244,7 @@ li a.help:hover {
     padding:0;
 }
 #account-nav li a {
-    display:block;
+    display:inline-block;
     padding:0px 9px 0px;
 }
 #header .search_field {
@@ -1284,6 +1284,7 @@ input:-moz-placeholder {
   border: 1px solid #b7b7b7;
   border-top: 0px;
   background-color:#FFFFFF;
+  padding:10px 0;
 }
 #header li.last-child > ul {
         left:auto;
@@ -1294,6 +1295,7 @@ input:-moz-placeholder {
     white-space:nowrap;
     border-style:solid;
     border-width:1px 0;
+    line-height:22px;
 }
 #header li.drop-down li > a {
   padding:5px 9px;
