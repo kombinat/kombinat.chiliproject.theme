@@ -1634,7 +1634,7 @@ form#issue-list {
 }
 #content table.issues td, #content table th {
     border:1px solid #e6e6e6;
-    padding:6px;
+    padding:3px;
     text-align:left;
     position:relative;
     vertical-align:top;
@@ -1642,6 +1642,10 @@ form#issue-list {
 #content table th a {
     color:#111;
     text-decoration:none;
+}
+#content table.issues td a {
+    font-weight:normal;
+    color:#000;
 }
 #content table th.current-sort {
     background:#fff url(../images/gradient-up.png) repeat-x;
@@ -2366,7 +2370,7 @@ tr.time-entry {
 
 /* Weird Safari cascade bug. More specificity */
 div.issue p, div.issue div, #content td {
-    font-size:11px;
+    font-size:12px;
 }
 
 /* comments */
