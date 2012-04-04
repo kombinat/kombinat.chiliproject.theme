@@ -1645,7 +1645,6 @@ form#issue-list {
 }
 #content table.issues td a {
     font-weight:normal;
-    color:#000;
 }
 #content table th.current-sort {
     background:#fff url(../images/gradient-up.png) repeat-x;
