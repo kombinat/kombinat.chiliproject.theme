@@ -2572,35 +2572,26 @@ Additional wiki styles
 }
 
 /* nice priority colors */
-#content table.issues tr.priority-1 td {
+#content table.issues tr.priority-1 > td {
     background-color:#ddd;
+    border-bottom:1px solid #c3c3c3;
 }
-#content table.issues tr.odd.priority-1 td {
-    background-color:#c3c3c3;
-}
-#content table.issues tr.priority-2 td {
+
+#content table.issues tr.priority-2 > td {
     background-color:#c8fbba;
+    border-bottom:1px solid #acd8a0;
 }
-#content table.issues tr.odd.priority-2 td {
-    background-color:#acd8a0;
-}
-#content table.issues tr.priority-3 td {
+#content table.issues tr.priority-3 > td {
     background-color:#f8d159;
+    border-bottom:1px solid #e4c051;
 }
-#content table.issues tr.odd.priority-3 td {
-    background-color:#e4c051;
-}
-#content table.issues tr.priority-4 td {
+#content table.issues tr.priority-4 > td {
     background-color:#fa8d3d;
+    border-bottom:1px solid #dc7c36;
 }
-#content table.issues tr.odd.priority-4 td {
-    background-color:#dc7c36;
-}
-#content table.issues tr.priority-5 td {
+#content table.issues tr.priority-5 > td {
     background-color:#ec4a4a;
-}
-#content table.issues tr.odd.priority-5 td {
-    background-color:#ca3f3f;
+    border-bottom:1px solid #ca3f3f;
 }
 
 
