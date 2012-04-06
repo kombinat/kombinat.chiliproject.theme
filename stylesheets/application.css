@@ -2116,9 +2116,6 @@ div#roadmap fieldset.related-issues {
     font-style: italic;
 }
 
-tr.context-menu-selection td.priority {
-    background:none !important;
-}
 
 /* Blue dots killed */
 .nosidebar ul li {
@@ -2593,7 +2590,10 @@ Additional wiki styles
     background-color:#ec4a4a;
     border-bottom:1px solid #ca3f3f;
 }
-
+.context-menu-selection td {
+    background-color: #507AAA !important;
+    color: #000000 !important;
+}
 
 /* time-tracker overrides */
 #time-tracker-menu {
