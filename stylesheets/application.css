@@ -3263,34 +3263,34 @@ form#issue-list {
 
 /* colorized row as of issue state */
 
-#content table.issues.odd tr.priority-1 td {
+#content table.issues tr.priority-1.odd td {
     background-color:#e5ffcc;
 }
-#content table.issues.even tr.priority-1 td {
+#content table.issues tr.priority-1.even td {
     background-color:#d9ffb2;
 }
-#content table.issues.odd tr.priority-2 td {
+#content table.issues tr.priority-2.odd td {
     background-color:#faffcc;
 }
-#content table.issues.even tr.priority-2 td {
+#content table.issues tr.priority-2.even td {
     background-color:#f7ffb2;
 }
-#content table.issues.odd tr.priority-3 td {
+#content table.issues tr.priority-3.odd td {
     background-color:#ffe8cc;
 }
-#content table.issues.even tr.priority-3 td {
+#content table.issues tr.priority-3.even td {
     background-color:#ffddb2;
 }
-#content table.issues.odd tr.priority-4 td {
+#content table.issues tr.priority-4.odd td {
     background-color:#ffcccc;
 }
-#content table.issues.even tr.priority-4 td {
+#content table.issues tr.priority-4.even td {
     background-color:#ffb2b2;
 }
-#content table.issues.odd tr.priority-5 td {
+#content table.issues tr.priority-5.odd td {
     background-color:#e5ccff;
 }
-#content table.issues.even tr.priority-5 td {
+#content table.issues tr.priority-5.even td {
     background-color:#d9b2ff;
 }
 /*-------------------------------------------------------------------------------
