@@ -3263,12 +3263,6 @@ form#issue-list {
 
 /* colorized row as of issue state */
 
-#content table.issues tr.priority-1.odd td {
-    background-color:#fff;
-}
-#content table.issues tr.priority-1.even td {
-    background-color:#e5e5e5;
-}
 #content table.issues tr.priority-2.odd td {
     background-color:#faffcc;
 }
