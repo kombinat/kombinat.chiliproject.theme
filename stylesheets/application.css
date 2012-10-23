@@ -3812,7 +3812,7 @@ div#roadmap fieldset.related-issues {
   font-style: italic;
 }
 
-tr.context-menu-selection td.priority {
+tr.context-menu-selection td {
   background: none !important;
 }
 
