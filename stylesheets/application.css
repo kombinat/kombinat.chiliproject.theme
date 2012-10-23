@@ -3261,14 +3261,20 @@ form#issue-list {
   padding: 1px 2px;
 }
 
-/* colorized row as of issue state */
-
+#content table.issues tr.priority-1.odd td {
+    opacity:0.6;
+}
+#content table.issues tr.priority-1.even td {
+    opacity:0.6;
+}
+/*
 #content table.issues tr.priority-2.odd td {
     background-color:#faffcc;
 }
 #content table.issues tr.priority-2.even td {
     background-color:#f7ffb2;
 }
+*/
 #content table.issues tr.priority-3.odd td {
     background-color:#ffe8cc;
 }
@@ -3282,10 +3288,10 @@ form#issue-list {
     background-color:#ffb2b2;
 }
 #content table.issues tr.priority-5.odd td {
-    background-color:#e5ccff;
+    background-color:#ff8080;
 }
 #content table.issues tr.priority-5.even td {
-    background-color:#d9b2ff;
+    background-color:#ff6666;
 }
 /*-------------------------------------------------------------------------------
  * =05 - Single Issue Page
