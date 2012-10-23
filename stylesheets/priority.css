@@ -1,0 +1,26 @@
+/* colorized row as of issue state */
+
+#content table.issues tr.priority-2.odd td {
+    background-color:#faffcc;
+}
+#content table.issues tr.priority-2.even td {
+    background-color:#f7ffb2;
+}
+#content table.issues tr.priority-3.odd td {
+    background-color:#ffe8cc;
+}
+#content table.issues tr.priority-3.even td {
+    background-color:#ffddb2;
+}
+#content table.issues tr.priority-4.odd td {
+    background-color:#ffcccc;
+}
+#content table.issues tr.priority-4.even td {
+    background-color:#ffb2b2;
+}
+#content table.issues tr.priority-5.odd td {
+    background-color:#e5ccff;
+}
+#content table.issues tr.priority-5.even td {
+    background-color:#d9b2ff;
+}
